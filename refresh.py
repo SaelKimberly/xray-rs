@@ -45,7 +45,7 @@ class Config:
 
 REPOS: list[Config] = [
     # three mainstream repos
-    Config("https://github.com/SagerNet/sing-box.git", "sing-box", "dev-next"),
+    Config("https://github.com/SagerNet/sing-box.git", "sing-box", "stable"),
     Config("https://github.com/v2ray/v2ray-core.git", "v2ray-core", "master"),
     Config("https://github.com/XTLS/Xray-core.git", "Xray-core", "main"),
     # client libraries and apps
